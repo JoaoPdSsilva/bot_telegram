@@ -3,4 +3,10 @@
 2. O workflow do bot funcionara da seguinte maneira --> 
     Acessar a API -> Pegar a URL da Img -> Enviar a imagem
 
-3.
+3. Sites de apoio para a criação do bot:
+
+https://www.freecodecamp.org/news/learn-to-build-your-first-bot-in-telegram-with-python-4c99526765e4/
+
+https://dev.to/tbhaxor/making-telegram-bots-with-python-hid
+
+
