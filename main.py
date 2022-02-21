@@ -17,7 +17,7 @@ def get_image_url():
     return url
 
 @run_async
-def bop(update, context):
+def dog(update, context):
     url = get_image_url()
     chat_id = update.message.chat_id
     context.bot.send_photo(chat_id=chat_id, photo=url)
@@ -25,7 +25,7 @@ def bop(update, context):
 def main():
     updater = Updater('5173115110:AAHJf6WEaMCevbNrbtoOrAB7AUtNOaFlEj4', use_context=True)
     dp = updater.dispatcher
-    dp.add_handler(CommandHandler('bop',bop))
+    dp.add_handler(CommandHandler('dog',dog))
     updater.start_polling()
     updater.idle()
 
